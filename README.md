@@ -82,7 +82,7 @@ I found it more structured than AWS official preparation material and Udemy UI t
 
 ## How to Start?
 I would suggest preparing in the following way:
-1. **Find Your Gaps** Take the practice exam to find **where your gaps are** and which topics you need to cover. If you scored 70+ points on your first try, perhaps it doesn't make sense to spend 20h on teh video course and you should focus on specific ML topic/AWS services only. 
+1. <code style="color : fuchsia">Find Your Gaps</code> Take the practice exam to find **where your gaps are** and which topics you need to cover. If you scored 70+ points on your first try, perhaps it doesn't make sense to spend 20h on teh video course and you should focus on specific ML topic/AWS services only. 
 2. (Optional) **Take a video course** Depending on the gaps you identified in (1), either go through a full course (if your score was low), or partial, focusing on areas of interest.
 3. **Revise Your Notes** You can either use your personal notes or go through mine on this repo.
 4. Go through a practice test again.
