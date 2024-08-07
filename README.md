@@ -7,7 +7,8 @@ The guide contains all links to all materials you would need to prepare for the 
 
 Although this was made for MLS-C01 (Machine Learning Specialty) Exam, it should also cover both Associate ML Exams - (Machine Learning Associate) and (Machine Learning Engineer Associate). The extra material useful just for ML Engineer exam appears is marked.
 
-The notes are supposed to help you revise before the exam, not study the topics from scratch. If you are a beginner to ML, I recommend on doing a full ML course first. This project is aimed more at Data Scientists/ML Engineers already working in the field, but missing the full scope of AWS services available for ML Lifecycle.
+> [!NOTE]
+> The notes are supposed to help you revise before the exam, not study the topics from scratch. If you are a beginner to ML, I recommend on doing a full ML course first. This project is aimed more at Data Scientists/ML Engineers already working in the field, but missing the full scope of AWS services available for ML Lifecycle.
 
 - [AWS Certified Machine Learning - Specialty Exam](#aws-certified-machine-learning---specialty-exam)
   - [Preparatory Courses](#preparatory-courses)
