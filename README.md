@@ -1,4 +1,4 @@
-# AWS Certified Machine Learning - Specialty Exam
+# AWS Machine Learning Exam
 
 ![AWS-Certified-Machine-Learning-Specialty_badge](images/aws_badge.png)
 Welcome to this unofficial exam preparation guide for the AWS Certified - Machine Learning Specialty Exam.
