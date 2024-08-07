@@ -68,6 +68,7 @@ The notes are supposed to help you revise before the exam, not study the topics 
 ## Preparatory Courses
 ### AWS Official (SkillBuilder)
 [Machine Learning: Exam Preparation](https://aws.amazon.com/training/learning-paths/machine-learning/exam-preparation/) - an official roadmap of AWS courses to be ready for the exam. Many of the courses are not free (come with AWS SkillBuilder subsription at $29 per month), although some shorter content is available for free. In both cases you would need an AWS acount. 
+
 [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) - list of topics and service typically appearing in the exam. It also list AWS services you do not need for the exam, to avoid wasting time on over-preparing.
 
 [Practice Exam - 20 Questions]()
