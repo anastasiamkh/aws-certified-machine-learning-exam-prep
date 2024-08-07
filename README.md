@@ -94,7 +94,8 @@ See official [Exam Guide](https://d1.awsstatic.com/training-and-certification/do
 
 There are 65 questions in total, either (1) multiple choice or (2) multiple selection. Out of 65 questions, 15 are unscored (they are beta questions that might be scored in the future). The unscored questions are not marked, so yuo should treat all questiions equally serious. 
 
-You should never skip a question and at least try to guess, as wrong answer results in the same zero points as does the no answer.
+> [!TIP]
+> You should never skip a question and at least try to guess, as wrong answer results in the same zero points as does the no answer.
 
 The questions are related to 4 main topics and a question may require knowledge about any combination of those. The topics are:
 
