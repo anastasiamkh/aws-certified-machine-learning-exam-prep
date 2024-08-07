@@ -1,16 +1,146 @@
-# Guide to Passing AWS Certified Machine Learning - Specialty Exam
+# AWS Certified Machine Learning - Specialty Exam
 Preparation roadmap and materials for the AWS Certified - Machine Learning Specialty Exam
-![AWS-Certified-Machine-Learning-Specialty_badge e5d66b56552bbf046f905bacaecef6dad0ae7180](https://github.com/user-attachments/assets/7c2d4403-4302-40c8-89e8-8e446d5e20b2)
-[Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf)
+![AWS-Certified-Machine-Learning-Specialty_badge](images/aws_badge.png)
+- [AWS Certified Machine Learning - Specialty Exam](#aws-certified-machine-learning---specialty-exam)
+  - [Preparatory Courses](#preparatory-courses)
+    - [AWS Official (SkillBuilder)](#aws-official-skillbuilder)
+    - [Non-Official](#non-official)
+  - [How to Start?](#how-to-start)
+  - [Exam Contents (High Level)](#exam-contents-high-level)
+  - [Cheeatsheet: AWS Services for ML](#cheeatsheet-aws-services-for-ml)
+        - [Amazon Kinesis](#amazon-kinesis)
+        - [Amazon Data Firehose](#amazon-data-firehose)
+        - [Amazon EMR](#amazon-emr)
+        - [AWS Glue](#aws-glue)
+        - [Amazon Managed Service for Apache Flink](#amazon-managed-service-for-apache-flink)
+        - [AWS Data Pipeline](#aws-data-pipeline)
+        - [AWS Batch](#aws-batch)
+        - [Amazon S3](#amazon-s3)
+        - [Amazon EFS](#amazon-efs)
+        - [Amazon EBS](#amazon-ebs)
+        - [Amazon Athena](#amazon-athena)
+        - [Amazon Quicksight](#amazon-quicksight)
+        - [AWS DynamoDB](#aws-dynamodb)
+        - [AWS SageMaker](#aws-sagemaker)
+        - [AWS Forecast](#aws-forecast)
+        - [AWS Bedrock](#aws-bedrock)
+        - [AWS Kendra](#aws-kendra)
+        - [AWS DeepRacer](#aws-deepracer)
+        - [AWS Textract](#aws-textract)
+        - [AWS Personalize](#aws-personalize)
+        - [AWS Lookout](#aws-lookout)
+        - [AWS Monitron](#aws-monitron)
+        - [AWS Comprehend](#aws-comprehend)
+        - [AWS Translate](#aws-translate)
+        - [AWS Comprehend](#aws-comprehend-1)
+        - [AWS Polly](#aws-polly)
+        - [AWS Lex](#aws-lex)
+        - [AWS Rekognition](#aws-rekognition)
+        - [AWS Lambda](#aws-lambda)
+        - [AWS DMS](#aws-dms)
+        - [AWS StepFunctions](#aws-stepfunctions)
+        - [AWS DataSync](#aws-datasync)
+        - [AWS IoT Greengrass](#aws-iot-greengrass)
+        - [AWS KMS](#aws-kms)
+        - [AWS IAM](#aws-iam)
+        - [AWS Macie](#aws-macie)
+        - [AWS CloudWatch](#aws-cloudwatch)
+        - [AWS CloudTrail](#aws-cloudtrail)
+        - [AWS VPC](#aws-vpc)
+        - [AWS EC2](#aws-ec2)
+  - [Type of Questions](#type-of-questions)
+
+## Preparatory Courses
+### AWS Official (SkillBuilder)
+[Machine Learning: Exam Preparation](https://aws.amazon.com/training/learning-paths/machine-learning/exam-preparation/) - an official roadmap of AWS courses to be ready for the exam. Many of the courses are not free (come with AWS SkillBuilder subsription at $29 per month), although some shorter content is available for free. In both cases you would need an AWS acount. 
+[Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) - list of topics and service typically appearing in the exam. It also list AWS services you do not need for the exam, to avoid wasting time on over-preparing.
+
+[Practice Exam - 20 Questions]()
+
+### Non-Official
+Personally I preferrd this course by Frank Kane:
+[AWS Certified Machine Learning Specialty 2024 - Hands On!](https://www.udemy.com/course/aws-machine-learning/?couponCode=ST10MT8624)
+
+I found it more structured than AWS official preparation material and Udemy UI to be easier to navigate than AWS Skillbuilder. I would suggest to take the Udemy course (if you feel you need any at all),
+
+## How to Start?
+I would suggest preparing in the following way:
+1. **Find Your Gaps** Take the practice exam to find **where your gaps are** and which topics you need to cover. If you scored 70+ points on your first try, perhaps it doesn't make sense to spend 20h on teh video course and you should focus on specific ML topic/AWS services only. 
+2. (Optional) **Take a video course** Depending on the gaps you identified in (1), either go through a full course (if your score was low), or partial, focusing on areas of interest.
+3. **Revise Your Notes** You can either use your personal notes or go through mine on this repo.
+4. Go through a practice test again.
+5. (Optional, but recommended) Take an official **Exam Readiness Test** on AWS SkillBulder. It imitates the full test experience, to make you feel comfortable with the UI and the timing.
 
 
-## Exam Contents
-See official [Exam Guide]([Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf))  for mode details
-• Data Engineering (20% of scored content)
-  - Storage (Amazon S3, Amazon Elastic File System [Amazon EFS], Amazon Elastic Block Store [Amazon EBS])
-  - Orchestration (Amazon Kinesis, Amazon Data Firehose, Amazon EMR, AWS Glue o Amazon Managed Service for Apache Flink)
-  - Transform data in transit (ETL, AWS Glue, Amazon EMR, AWS Batch)
-  - Handle ML-specific data by using MapReduce (for example, Apache Hadoop, Apache Spark, Apache Hive)
-• Exploratory Data Analysis (24% of scored content)
+## Exam Contents (High Level)
+See official [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) for mode details
+• Data Engineering *(20% of scored content)*
+  - Storage ([Amazon S3](https://aws.amazon.com/s3/), [Amazon EFS](https://aws.amazon.com/de/efs/), [Amazon EBS](https://aws.amazon.com/ebs/))
+  - Orchestration ([Amazon Kinesis](https://aws.amazon.com/kinesis/), [Amazon Data Firehose](https://aws.amazon.com/firehose/), [Amazon EMR](https://aws.amazon.com/emr/), [AWS Glue](https://aws.amazon.com/glue/), [Amazon Managed Service for Apache Flink](https://aws.amazon.com/managed-service-apache-flink/))
+  - Transform data in transit (ETL) ([AWS Glue](https://aws.amazon.com/glue/), [AWS Data Pipeline](https://docs.aws.amazon.com/data-pipeline/), [Amazon EMR](https://aws.amazon.com/emr/), [AWS Batch](https://aws.amazon.com/batch))
+  - Handle ML-specific data by using MapReduce (for example, [Apache Hadoop](https://aws.amazon.com/emr/features/hadoop/), [Apache Spark](https://aws.amazon.com/emr/features/spark/), [Apache Hive](https://aws.amazon.com/emr/features/hive/))
+
+• Exploratory Data Analysis *(24% of scored content)*
 • Modeling (36% of scored content) 
-• Machine Learning Implementation and Operations (20% of scored content)
+• Machine Learning Implementation and Operations *(20% of scored content)*
+
+
+## Cheeatsheet: AWS Services for ML
+
+##### [Amazon Kinesis](https://aws.amazon.com/kinesis/)
+Amazon Kinesis Data Streams is a serverless streaming data service that simplifies the capture, processing, and storage of data streams at any scale. With Amazon Kinesis Video Streams, you can more easily and securely stream video from connected devices to AWS for analytics, ML, playback, and other processing.
+##### [Amazon Data Firehose](https://aws.amazon.com/firehose/)
+Amazon Data Firehose is the easiest way to capture, transform, and deliver data streams into Amazon S3, Amazon Redshift, Amazon OpenSearch Service, Splunk, Snowflake, and other 3rd party analytics services
+##### [Amazon EMR](https://aws.amazon.com/emr/)
+Amazon EMR (Amazon Elastic MapReduce) is a managed cluster platform that simplifies running big data frameworks, such as Apache Hadoop and Apache Spark , on AWS to process and analyze vast amounts of data.
+##### [AWS Glue](https://aws.amazon.com/glue/)
+AWS Glue provides a serverless solution that simplifies the entire process of discovering, preparing, and combining data for application development, machine learning, and analytics.
+Glue ETL, DataQuality, DataBrew and Data Catalog
+##### [Amazon Managed Service for Apache Flink](https://aws.amazon.com/managed-service-apache-flink/)
+With Amazon Managed Service for Apache Flink, you can transform and analyze streaming data in real time using Apache Flink and integrate applications with other AWS services. There are no servers and clusters to manage, and there is no compute and storage infrastructure to set up.
+##### [AWS Data Pipeline](https://docs.aws.amazon.com/data-pipeline/)
+AWS Data Pipeline is a web service that you can use to automate the movement and transformation of data. With AWS Data Pipeline, you can define data-driven workflows, so that tasks can be dependent on the successful completion of previous tasks. You define the parameters of your data transformations and AWS Data Pipeline enforces the logic that you've set up.
+##### [AWS Batch](https://aws.amazon.com/batch)
+##### [Amazon S3](https://aws.amazon.com/s3/)
+##### [Amazon EFS](https://aws.amazon.com/de/efs/)
+##### [Amazon EBS](https://aws.amazon.com/ebs/)
+##### [Amazon Athena](https://aws.amazon.com/athena/)
+##### [Amazon Quicksight](https://aws.amazon.com/quicksight/)
+##### [AWS DynamoDB](https://aws.amazon.com/dynamodb/)
+##### [AWS SageMaker](https://aws.amazon.com/sagemaker/)
+##### [AWS Forecast](https://aws.amazon.com/forecast/)
+##### [AWS Bedrock](https://aws.amazon.com/bedrock/)
+##### [AWS Kendra](https://aws.amazon.com/kendra/)
+Amazon Kendra is an intelligent search service that uses natural language processing and advanced machine learning algorithms to return specific answers to search questions from your data.
+##### [AWS DeepRacer](hhttps://aws.amazon.com/deepracer/)
+Build models in Amazon SageMaker and train, test, and iterate quickly and easily on the track in the AWS DeepRacer 3D racing simulator.
+##### [AWS Textract](hhttps://aws.amazon.com/textract/)
+Amazon Textract is a machine learning (ML) service that automatically extracts text, handwriting, layout elements, and data from scanned documents.
+##### [AWS Personalize](https://aws.amazon.com/personalize/)
+##### [AWS Lookout](https://aws.amazon.com/lookout/)
+##### [AWS Monitron](https://aws.amazon.com/monitron/)
+##### [AWS Comprehend](https://aws.amazon.com/comprehend/)
+##### [AWS Translate](https://aws.amazon.com/translate/)
+##### [AWS Comprehend](https://aws.amazon.com/comprehend/)
+##### [AWS Polly](https://aws.amazon.com/polly/)
+##### [AWS Lex](https://aws.amazon.com/lex/)
+##### [AWS Rekognition](https://aws.amazon.com/rekognition/)
+##### [AWS Lambda](https://aws.amazon.com/lambda/)
+##### [AWS DMS](https://aws.amazon.com/dms/)
+##### [AWS StepFunctions](https://aws.amazon.com/step-functions/)
+##### [AWS DataSync](https://aws.amazon.com/datasync/)
+##### [AWS IoT Greengrass]()
+##### [AWS KMS](https://aws.amazon.com/kms/)
+##### [AWS IAM](https://aws.amazon.com/iam/)
+##### [AWS Macie](https://aws.amazon.com/macie/)
+##### [AWS CloudWatch](https://aws.amazon.com/cloudwatch/)
+##### [AWS CloudTrail](https://aws.amazon.com/cloudtrail/)
+##### [AWS VPC](https://aws.amazon.com/vpc/)
+Amazon Virtual Private Cloud (VPC) is a service that lets you launch AWS resources in a logically isolated virtual network that you define.
+##### [AWS EC2](https://aws.amazon.com/ec2/)
+
+
+## Type of Questions
+1. What is the easiest/least operationally heavy way to ...
+2. What ML model would you use to ...
+3. Given the problem in this industry/context, what AWS service should you use? (industry- or context-specific services)
