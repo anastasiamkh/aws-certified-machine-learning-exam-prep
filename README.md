@@ -1,13 +1,28 @@
 # AWS Certified Machine Learning - Specialty Exam
-Preparation roadmap and materials for the AWS Certified - Machine Learning Specialty Exam
+
 ![AWS-Certified-Machine-Learning-Specialty_badge](images/aws_badge.png)
+Welcome to this unofficial exam preparation guide for the AWS Certified - Machine Learning Specialty Exam.
+
+The guide contains all links to all materials you would need to prepare for the exam from scratch, a cheetsheet for the AWS services likely to appear in the exam, and my notes on 4 topics covered by the exam. 
+
+Although this was made for MLS-C01 (Machine Learning Specialty) Exam, it should also cover both Associate ML Exams - (Machine Learning Associate) and (Machine Learning Engineer Associate). The extra material useful just for ML Engineer exam appears is marked.
+
+The notes are supposed to help you revise before the exam, not study the topics from scratch. If you are a beginner to ML, I recommend on doing a full ML course first. This project is aimed more at Data Scientists/ML Engineers already working in the field, but missing the full scope of AWS services available for ML Lifecycle.
+
 - [AWS Certified Machine Learning - Specialty Exam](#aws-certified-machine-learning---specialty-exam)
   - [Preparatory Courses](#preparatory-courses)
     - [AWS Official (SkillBuilder)](#aws-official-skillbuilder)
     - [Non-Official](#non-official)
   - [How to Start?](#how-to-start)
   - [Exam Contents (High Level)](#exam-contents-high-level)
-  - [Cheeatsheet: AWS Services for ML](#cheeatsheet-aws-services-for-ml)
+  - [Cheatsheet: AWS Services for ML](#cheatsheet-aws-services-for-ml)
+  - [Topics](#topics)
+    - [Data Engineering on AWS](#data-engineering-on-aws)
+    - [Data Analytics on AWS](#data-analytics-on-aws)
+    - [ML on AWS](#ml-on-aws)
+    - [MLOps on AWS](#mlops-on-aws)
+  - [Machine Learning Engineer Associate Exam](#machine-learning-engineer-associate-exam)
+  - [AWS Services for the Exam](#aws-services-for-the-exam)
         - [Amazon Kinesis](#amazon-kinesis)
         - [Amazon Data Firehose](#amazon-data-firehose)
         - [Amazon EMR](#amazon-emr)
@@ -74,18 +89,48 @@ I would suggest preparing in the following way:
 
 ## Exam Contents (High Level)
 See official [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) for mode details
+
+There are 65 questions in total, either (1) multiple choice or (2) multiple selection. Out of 65 questions, 15 are unscored (they are beta questions that might be scored in the future). The unscored questions are not marked, so yuo should treat all questiions equally serious. 
+
+You should never skip a question and at least try to guess, as wrong answer results in the same zero points as does the no answer.
+
+The questions are related to 4 main topics and a question may require knowledge about any combination of those. The topics are:
+
 • Data Engineering *(20% of scored content)*
   - Storage ([Amazon S3](https://aws.amazon.com/s3/), [Amazon EFS](https://aws.amazon.com/de/efs/), [Amazon EBS](https://aws.amazon.com/ebs/))
   - Orchestration ([Amazon Kinesis](https://aws.amazon.com/kinesis/), [Amazon Data Firehose](https://aws.amazon.com/firehose/), [Amazon EMR](https://aws.amazon.com/emr/), [AWS Glue](https://aws.amazon.com/glue/), [Amazon Managed Service for Apache Flink](https://aws.amazon.com/managed-service-apache-flink/))
-  - Transform data in transit (ETL) ([AWS Glue](https://aws.amazon.com/glue/), [AWS Data Pipeline](https://docs.aws.amazon.com/data-pipeline/), [Amazon EMR](https://aws.amazon.com/emr/), [AWS Batch](https://aws.amazon.com/batch))
-  - Handle ML-specific data by using MapReduce (for example, [Apache Hadoop](https://aws.amazon.com/emr/features/hadoop/), [Apache Spark](https://aws.amazon.com/emr/features/spark/), [Apache Hive](https://aws.amazon.com/emr/features/hive/))
+  - ETL ([AWS Glue](https://aws.amazon.com/glue/), [AWS Data Pipeline](https://docs.aws.amazon.com/data-pipeline/), [Amazon EMR](https://aws.amazon.com/emr/), [AWS Batch](https://aws.amazon.com/batch))
+  - Big Data with MapReduce (for example, [Apache Hadoop](https://aws.amazon.com/emr/features/hadoop/), [Apache Spark](https://aws.amazon.com/emr/features/spark/), [Apache Hive](https://aws.amazon.com/emr/features/hive/))
 
-• Exploratory Data Analysis *(24% of scored content)*
-• Modeling (36% of scored content) 
-• Machine Learning Implementation and Operations *(20% of scored content)*
+• Data Analytics (EDA) *(24% of scored content)*
+
+• Modelling (ML) (36% of scored content) 
+
+• MLOps *(20% of scored content)*
 
 
-## Cheeatsheet: AWS Services for ML
+## Cheatsheet: AWS Services for ML
+[image]()
+
+## Topics
+
+### Data Engineering on AWS
+This part accounts for 20% of the scored content.
+
+### Data Analytics on AWS
+This part accounts for 24% of the scored content.
+
+### ML on AWS
+This part accounts for 36% of the scored content.
+
+### MLOps on AWS
+This part accounts for 20% of the scored content.
+
+## Machine Learning Engineer Associate Exam
+This section contains materials specifically for the Machine Learning Engineer Associate Exam, the parts that were not covered by MLS-C01 notes.
+
+
+## AWS Services for the Exam
 
 ##### [Amazon Kinesis](https://aws.amazon.com/kinesis/)
 Amazon Kinesis Data Streams is a serverless streaming data service that simplifies the capture, processing, and storage of data streams at any scale. With Amazon Kinesis Video Streams, you can more easily and securely stream video from connected devices to AWS for analytics, ML, playback, and other processing.
