@@ -128,19 +128,19 @@ Data storage, injestion and transformation.
 **Key terms**: data lake, data mesh, data warehouse, data injestion, batch processing, streaming
 
 This part accounts for 20% of the scored content.
-Read more [here](1 Data Engineering.md)
+Read more [here](1_Data_Engineering.md)
 
 ### Data Analytics on AWS
 This part accounts for 24% of the scored content.
-Read more [here](2 Data Analytics.md)
+Read more [here](2_Data_Analytics.md)
 
 ### ML on AWS
 This part accounts for 36% of the scored content.
-Read more [here](3 Machine Learning.md)
+Read more [here](3_Machine_Learning.md)
 
 ### MLOps on AWS
 This part accounts for 20% of the scored content.
-Read more [here](4 MLOps.md)
+Read more [here](4_MLOps.md)
 
 ## Machine Learning Engineer Associate Exam
 This section contains materials specifically for the Machine Learning Engineer Associate Exam, the parts that were not covered by MLS-C01 notes.
