@@ -10,7 +10,7 @@ Although this was made for MLS-C01 (Machine Learning Specialty) Exam, it should 
 > [!NOTE]
 > The notes are supposed to help you revise before the exam, not study the topics from scratch. If you are a beginner to ML, I recommend on doing a full ML course first. This project is aimed more at Data Scientists/ML Engineers already working in the field, but missing the full scope of AWS services available for ML Lifecycle.
 
-- [AWS Certified Machine Learning - Specialty Exam](#aws-certified-machine-learning---specialty-exam)
+- [AWS Machine Learning Exam](#aws-machine-learning-exam)
   - [Preparatory Courses](#preparatory-courses)
     - [AWS Official (SkillBuilder)](#aws-official-skillbuilder)
     - [Non-Official](#non-official)
@@ -65,6 +65,7 @@ Although this was made for MLS-C01 (Machine Learning Specialty) Exam, it should 
         - [AWS VPC](#aws-vpc)
         - [AWS EC2](#aws-ec2)
   - [Type of Questions](#type-of-questions)
+  - [Answering Strategies](#answering-strategies)
 
 ## Preparatory Courses
 ### AWS Official (SkillBuilder)
@@ -92,10 +93,9 @@ I would suggest preparing in the following way:
 ## Exam Contents (High Level)
 See official [Exam Guide](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) for mode details
 
-There are 65 questions in total, either (1) multiple choice or (2) multiple selection. Out of 65 questions, 15 are unscored (they are beta questions that might be scored in the future). The unscored questions are not marked, so yuo should treat all questiions equally serious. 
+There are 65 questions in total, either (1) multiple choice or (2) multiple selection. Out of 65 questions, 15 are unscored (they are beta questions that might be scored in the future). The unscored questions are not marked, so you should treat all questiions equally serious. You should never skip a question and at least try to guess, as wrong answer results in the same zero points as does the no answer.
 
-> [!TIP]
-> You should never skip a question and at least try to guess, as wrong answer results in the same zero points as does the no answer.
+Exam lasts 170 min, and you can get 30 min extra if you are a non-native speaker, but you must request this in advance.
 
 The questions are related to 4 main topics and a question may require knowledge about any combination of those. The topics are:
 
@@ -118,16 +118,29 @@ The questions are related to 4 main topics and a question may require knowledge 
 ## Topics
 
 ### Data Engineering on AWS
+Data storage, injestion and transformation.
+
+**Key services**:
+- Storage: Lake Formation, S3, EFS, EBS, FSx
+- Injestion: Kinesis (Firehorse, Data Streams, Video Streams), Glue, DMS, StepFunctions
+- Transformation: EMR (managed Spark), Athena, Quicksight, Redshift Spectrum
+
+**Key terms**: data lake, data mesh, data warehouse, data injestion, batch processing, streaming
+
 This part accounts for 20% of the scored content.
+Read more [here](1 Data Engineering.md)
 
 ### Data Analytics on AWS
 This part accounts for 24% of the scored content.
+Read more [here](2 Data Analytics.md)
 
 ### ML on AWS
 This part accounts for 36% of the scored content.
+Read more [here](3 Machine Learning.md)
 
 ### MLOps on AWS
 This part accounts for 20% of the scored content.
+Read more [here](4 MLOps.md)
 
 ## Machine Learning Engineer Associate Exam
 This section contains materials specifically for the Machine Learning Engineer Associate Exam, the parts that were not covered by MLS-C01 notes.
@@ -189,6 +202,26 @@ Amazon Virtual Private Cloud (VPC) is a service that lets you launch AWS resourc
 
 
 ## Type of Questions
+Questions focus on a scenario where a Data Scientists/Machine Leanring Engineer is facing a certain problem. Some examples: 
+
 1. What is the easiest/least operationally heavy way to ...
 2. What ML model would you use to ...
 3. Given the problem in this industry/context, what AWS service should you use? (industry- or context-specific services)
+
+
+## Answering Strategies
+
+> [!TIP]
+> Questions are supposed to included only relevant information, no trick information is added to make you confused or distracted
+
+> [!TIP]
+> Try to answer the question before even looking at the answer choices, then see if any of those answer choices match your original answer.
+
+> [!TIP]
+> Identify the key phrases and qualifiers in the question. It can be keywords like "most operationally efficient".
+
+> [!TIP]
+> Get to the correct answer by elimination.
+
+> [!TIP]
+> When you are unsure, flag the question and continue. You can come back to the marked questions later.
